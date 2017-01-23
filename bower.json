@@ -10,5 +10,31 @@
       "src",
       "test",
       "testem.json"
-   ]
+   ],
+      "modules":{
+      "noframework":{
+         "main":"lib/noframework.waypoints.js"
+      },
+      "jquery":{
+         "main":"lib/jquery.waypoints.js",
+         "dependencies":{
+            "jquery":"~1.11.1"
+         }
+      },
+      "zepto":{
+         "main":"lib/zepto.waypoints.js",
+         "dependencies":{
+            "zepto":"~1.1.3"
+         }
+      },
+      "infinite":{
+         "main":"lib/shortcuts/infinite.js"
+      },
+      "inview":{
+         "main":"lib/shortcuts/inview.js"
+      },
+      "sticky":{
+         "main":"lib/shortcuts/sticky.js"
+      }
+   }
 }
