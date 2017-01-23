@@ -1,5 +1,5 @@
 {
-   "name":"waypoints",
+   "name":"waypoints-bindep",
    "main":"lib/empty.js",
    "description":"Easily execute a function when you scroll to an element.",
    "ignore":[
