@@ -1,5 +1,5 @@
 {
-   "name":"waypointsbindep",
+   "name":"waypoints-bindep",
    "version":"4.0.1",
    "main":"lib/empty.js",
 
