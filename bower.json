@@ -1,6 +1,7 @@
 {
    "name":"waypoints-bindep",
    "main":"lib/empty.js",
+   "comment":"empty file is necessary because there are no common part in the modules",
    "description":"Easily execute a function when you scroll to an element.",
    "ignore":[
       "gulpfile.js",
